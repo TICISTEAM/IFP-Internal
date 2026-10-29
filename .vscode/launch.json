@@ -1,0 +1,47 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "IntTest Deploy",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "environmentName": "INTTEST",
+            "tenant": "953ce5ad-7aed-46f0-bbb9-5b5691d6c9e3",
+            "startupObjectId": 22,
+            "startupObjectType": "Page",
+            "breakOnError": "All",
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true
+        },
+        {
+            "name": "AL: Download Symbols (INTTEST)",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "environmentName": "INTTEST",
+            "tenant": "953ce5ad-7aed-46f0-bbb9-5b5691d6c9e3"
+        },
+        {
+            "name": "AL: Attach (INTTEST)",
+            "request": "attach",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "environmentName": "INTTEST",
+            "tenant": "953ce5ad-7aed-46f0-bbb9-5b5691d6c9e3",
+            "breakOnNext": "WebClient",
+            "breakOnError": "ExcludeTry"
+        },
+        {
+            "name": "AL: Snapshot Debug (Production)",
+            "request": "snapshotInitialize",
+            "type": "al",
+            "environmentType": "Production",
+            "environmentName": "Production",
+            "tenant": "953ce5ad-7aed-46f0-bbb9-5b5691d6c9e3",
+            "breakOnNext": "WebClient",
+            "executionContext": "DebugAndProfile"
+        }
+    ]
+}

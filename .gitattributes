@@ -1,0 +1,3 @@
+# Normalize line endings in the repo; Git checks out using each machine's core.autocrlf
+* text=auto
+*.app binary

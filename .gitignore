@@ -1,0 +1,22 @@
+# ---- AL / Business Central ----
+# Downloaded symbols (re-download with "AL: Download Symbols")
+.alpackages/
+.alcache/
+.altemplates/
+# Compiled extension packages
+*.app
+# Snapshot debugging files
+.snapshots/
+# Per-machine AL extension state
+.vscode/rad.json
+.vscode/.alcache/
+# Code analysis output
+*.ruleset.json.bak
+
+# ---- Editors / OS ----
+.vs/
+*.user
+*.suo
+.DS_Store
+Thumbs.db
+desktop.ini

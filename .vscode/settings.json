@@ -1,0 +1,14 @@
+{
+    "al.packageCachePath": "./.alpackages",
+    "al.enableCodeAnalysis": false,
+    "al.codeAnalyzers": [
+        "${CodeCop}",
+        "${UICop}"
+    ],
+    "files.exclude": {
+        "**/.alpackages": true,
+        "**/.alcache": true,
+        "**/.snapshots": true
+    },
+    "files.eol": "\r\n"
+}

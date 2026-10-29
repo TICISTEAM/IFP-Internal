@@ -1,0 +1,63 @@
+{
+  "id": "5515a336-244d-4b04-bbd6-1a4f6b8e5d21",
+  "name": "IFP Internal",
+  "publisher": "IFP",
+  "version": "1.1.0.0",
+  "brief": "IFP Business Central customizations",
+  "description": "Consolidated IFPC extension: custom APIs (items, sales contracts, sales/purchase orders, AP automation, salespeople) and order business-event watchers. Merged from the former AP_Automations, ItemCard, SalesContractsAPI, SalesPurchaseOrders and Salesperson Update apps.",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "https://github.com/TICISTEAM/IFP-Internal",
+  "logo": "",
+  "dependencies": [
+    {
+      "id": "c463e7b0-39ab-4a5c-b569-06536635d26d",
+      "name": "International Food Products",
+      "publisher": "The Ascension Group, LLC",
+      "version": "27.0.19.0"
+    },
+    {
+      "id": "3099ffc7-4cf7-4df6-9b96-7e4bc2bb587c",
+      "name": "Subscription Billing",
+      "publisher": "Microsoft",
+      "version": "28.4.53241.53504"
+    },
+    {
+      "id": "f8750ab4-1d72-455d-b773-5b487a0ac106",
+      "name": "Lanham E-Ship and E-Receive",
+      "publisher": "Lanham Associates",
+      "version": "28.0.0.0"
+    }
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "28.0.0.0",
+  "idRanges": [
+    {
+      "from": 50390,
+      "to": 50490
+    },
+    {
+      "from": 50500,
+      "to": 50649
+    },
+    {
+      "from": 60200,
+      "to": 60259
+    },
+    {
+      "from": 60390,
+      "to": 60999
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "17.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}
